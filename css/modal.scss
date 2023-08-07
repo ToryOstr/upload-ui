@@ -4,7 +4,7 @@
   position: relative;
   height: auto;
   display: flex;
-  background-color: rgba(27, 29, 44, 1);
+  background-color: hsl(233, 24%, 14%);
   overflow: hidden;
   font-family: "Roboto", serif;
   border-radius: 10px;
@@ -123,3 +123,4 @@
     }
   }
 }
+@import 'infoCard';

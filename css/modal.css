@@ -3,7 +3,7 @@
   position: relative;
   height: auto;
   display: flex;
-  background-color: rgb(27, 29, 44);
+  background-color: hsl(233, 24%, 14%);
   overflow: hidden;
   font-family: "Roboto", serif;
   border-radius: 10px;
@@ -113,4 +113,62 @@
   box-shadow: 2px 2px 5px #050505;
   cursor: pointer;
   background-color: #5a7dfe;
+}
+
+.info-message {
+  position: relative;
+  background: rgb(21, 67, 112);
+  background: -moz-linear-gradient(left, rgb(27, 84, 142) 1%, rgb(27, 29, 44) 43%);
+  background: -webkit-linear-gradient(left, rgb(27, 84, 142) 1%, rgb(27, 29, 44) 43%);
+  background: linear-gradient(to right, rgb(27, 84, 142) 1%, rgb(27, 29, 44) 43%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#1b548e", endColorstr="#1b1d2c",GradientType=1 );
+}
+
+.change-saved {
+  background: rgb(14, 75, 28);
+  background: -moz-linear-gradient(left, rgb(14, 75, 28) 0%, rgb(27, 29, 44) 55%, rgb(27, 29, 44) 55%);
+  background: -webkit-linear-gradient(left, rgb(14, 75, 28) 0%, rgb(27, 29, 44) 55%, rgb(27, 29, 44) 55%);
+  background: linear-gradient(to right, rgb(14, 75, 28) 0%, rgb(27, 29, 44) 55%, rgb(27, 29, 44) 55%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#198733", endColorstr="#1b1d2c",GradientType=1 );
+}
+
+.info-card_img-container {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 25%;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.info-card_text-container {
+  margin: 10px auto;
+}
+.info-card_text-container h3 {
+  margin-bottom: 5px;
+  font-size: calc(9px + 7 * (100vw - 390px) / 1510);
+  font-weight: 500;
+  color: #fff;
+}
+.info-card_text-container p {
+  font-size: calc(8px + 4 * (100vw - 390px) / 1510);
+  font-weight: 300;
+  color: #cfcfcf;
+  margin-bottom: 0;
+}
+
+.info_close-btn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  transition: 0.3s;
+  transform: translate(0, -50%);
+}
+.info_close-btn:hover {
+  transform: scale(1.1) translate(0, -50%);
+  cursor: pointer;
 }/*# sourceMappingURL=modal.css.map */
