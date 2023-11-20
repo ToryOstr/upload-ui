@@ -16,8 +16,8 @@
           </button>
         <div class="progress">
           <div class="display-time">
-            <span class="timer-value">30</span>
-          <span class="timer-metric">min</span>
+            <span class="timer-hour">30</span>
+            <span class="timer-minute"> min</span>
           </div>
         </div>
         <div class="controls">
@@ -27,19 +27,20 @@
               <use href="./images/icons/symbol-defs.svg#icon-start"></use>
             </svg>
           </button>
-          <button title="click to stop timer" class="btn stop" type="button">
+          <button title="click to stop timer" class="btn stop" disabled type="button">
             <svg>
               <use href="./images/icons/symbol-defs.svg#icon-stop"></use>
             </svg>
           </button>
         </div>
           <div class="add-time"> <button class="btn minus" type="button">-</button>
-          <input class="timer-input"></input>
+          <input disabled class="timer-input" placeholder="30"></input>
           <button class="btn plus" type="button">+</button></div>
         </div>
       </div>
       <div class="history"></div>
     </div>
     <script src="./scripts/history-control.js"></script>
+    <script src="./scripts/timer-control.js"></script>
   </body>
 </html>
